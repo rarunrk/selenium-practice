@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-10T12:52:09 AEST" name="Default suite" finished-at="2022-02-10T12:52:09 AEST" duration-ms="29">
+  <suite started-at="2022-02-13T08:33:50 AEST" name="Default suite" finished-at="2022-02-13T08:34:04 AEST" duration-ms="13970">
     <groups>
     </groups>
-    <test started-at="2022-02-10T12:52:09 AEST" name="Default test" finished-at="2022-02-10T12:52:09 AEST" duration-ms="29">
-      <class name="com.zert.java.tutorial.MathOperationTest">
-        <test-method signature="add_test()[pri:0, instance:com.zert.java.tutorial.MathOperationTest@f5ac9e4]" started-at="2022-02-10T12:52:09 AEST" name="add_test" finished-at="2022-02-10T12:52:09 AEST" duration-ms="6" status="PASS">
+    <test started-at="2022-02-13T08:33:50 AEST" name="Default test" finished-at="2022-02-13T08:34:04 AEST" duration-ms="13970">
+      <class name="com.zert.java.tutorial.ElementTestCase">
+        <test-method is-config="true" signature="SetBaseUrl()[pri:0, instance:com.zert.java.tutorial.ElementTestCase@7f0eb4b4]" started-at="2022-02-13T08:33:50 AEST" name="SetBaseUrl" finished-at="2022-02-13T08:34:00 AEST" duration-ms="10267" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- add_test -->
-      </class> <!-- com.zert.java.tutorial.MathOperationTest -->
+        </test-method> <!-- SetBaseUrl -->
+        <test-method signature="checkBox_click_commands()[pri:0, instance:com.zert.java.tutorial.ElementTestCase@7f0eb4b4]" started-at="2022-02-13T08:34:00 AEST" name="checkBox_click_commands" finished-at="2022-02-13T08:34:04 AEST" duration-ms="3681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBox_click_commands -->
+      </class> <!-- com.zert.java.tutorial.ElementTestCase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
